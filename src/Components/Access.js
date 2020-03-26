@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 
 import "./Access.css";
 
@@ -52,15 +52,15 @@ class Access extends Component {
             </p>
           </div>
         </div>
-        <form onSubmit={""}>
-          <div className="Login">
-            <label>Email: </label>
-            <input type="text" name="email" />
-            <label>Password: </label>
-            <input type="text" name="password" />
-            <button type="submit">Ingresar</button>
-          </div>
-        </form>
+        {/* <form onSubmit={""}> */}
+        <div className="Login">
+          <label>Email: </label>
+          <input type="text" name="email" />
+          <label>Password: </label>
+          <input type="text" name="password" />
+          <Link to="/Worldcase">Ingresar</Link>
+        </div>
+        {/* </form> */}
       </div>
     );
   }
