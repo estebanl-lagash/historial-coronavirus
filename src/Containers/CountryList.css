@@ -1,0 +1,8 @@
+.CountryStyle {
+  width: 98%;
+  margin: 16px auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  text-align: left;
+  background-color: rgb(73, 65, 65);
+}
